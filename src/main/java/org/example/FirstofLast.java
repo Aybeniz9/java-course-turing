@@ -10,7 +10,7 @@ public class FirstofLast {
 
         if (number >= 100 && number <= 999) {
             int firstDigit = number / 100;
-            int lastDigit = number % 10;
+            int lastDigit = number %10;
 
             if (firstDigit > lastDigit) {
                 System.out.println(firstDigit);
