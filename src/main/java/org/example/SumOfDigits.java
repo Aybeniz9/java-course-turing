@@ -14,5 +14,5 @@ public class SumOfDigits {
     int thirdDigit= (num / 10) % 10;
 
     int fourthDigit= num % 10;
-        System.out.println(firstDigit+fourthDigit);
+        System.out.println(firstDigit+fourthDigit );
 }}
