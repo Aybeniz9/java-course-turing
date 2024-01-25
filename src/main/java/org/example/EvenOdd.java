@@ -10,9 +10,10 @@ public class EvenOdd {
         int n = scanner.nextInt();
 
         if ((n % 2 == 0 && n > 0) || (n % 2 != 0 && n < 0)) {
-            System.out.println("YES");
-        } else {
             System.out.println("NO");
+        } else {
+            System.out.println("YES");
+
         }
     }
 }

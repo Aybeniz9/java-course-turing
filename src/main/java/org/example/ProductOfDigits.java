@@ -10,7 +10,6 @@ public class ProductOfDigits {
 
         int secondDigit = (num / 10) % 10;
 
-
         int thirdDigit = num % 10;
         System.out.println(firstDigit * secondDigit * thirdDigit);
     }

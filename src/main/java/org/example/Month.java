@@ -34,12 +34,6 @@ public class Month {
             default:
                 System.out.println("Invalid month"); break;
 
-
-
-
-
-
-
         }
     }
 }

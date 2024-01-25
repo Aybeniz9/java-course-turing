@@ -11,8 +11,6 @@ public class SeperatedNumbers {
             int secondDigit = i % 10;
             System.out.println(firstDigit+" "+secondDigit);
         }
-        else{
-            System.out.println("This number invalid");
-        }
+
     }
 }
