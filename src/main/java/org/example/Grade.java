@@ -7,20 +7,20 @@ public class Grade {
 
         Scanner sc = new Scanner(System.in);
         int grade = sc.nextInt();
-        String gradeName = null;
+
 
         if (grade <= 3 && grade >= 1) {
-            gradeName = "Inital";
+            System.out.println("Inital");
         } else if (grade <= 6) {
-            gradeName = "Average";
+            System.out.println("Average");
         } else if (grade <= 9) {
-            gradeName = "Sufficient";
+            System.out.println("Sufficient");
         } else if (grade <= 12) {
-            gradeName = "High";
+            System.out.println("High");
         } else {
             System.out.println("Wrong grade");
         }
-        System.out.println(gradeName);
+
     }
 
 }
