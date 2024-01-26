@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class COnditionalStateament2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int y = 0;
+        long n = sc.nextInt();
+        long y = 0;
         if (n <= Math.pow(10, 4) && n >= Math.pow(10, 4) * (-1)) {
             if (n >= 10) {
                 y = n * n * n + n * 5;
