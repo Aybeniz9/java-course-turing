@@ -18,6 +18,5 @@ public class COnditionalStateament2 {
         } else {
             System.out.println("invalid number");
         }
-
     }
 }
