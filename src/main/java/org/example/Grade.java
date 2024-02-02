@@ -4,13 +4,11 @@ import java.util.Scanner;
 
 public class Grade {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
         int grade = sc.nextInt();
 
-
         if (grade <= 3 && grade >= 1) {
-            System.out.println("Inital");
+            System.out.println("Initial");
         } else if (grade <= 6) {
             System.out.println("Average");
         } else if (grade <= 9) {
