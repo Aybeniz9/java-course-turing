@@ -7,7 +7,7 @@ public class NumbersOfSameSign {
         int n=sc.nextInt();
         int m=sc.nextInt();
         if (n!=0&&n<= Math.pow(10,9) &&m!=0 && m<=Math.pow(10,9)){
-            if(n>0&&m>0){
+            if((n>0&&m>0)||(n<0&&m<0)){
                 System.out.println(1);
             }
             else System.out.println(0);

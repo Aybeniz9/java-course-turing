@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class CondSt3 {
     public static void main(String[] args) {
-
-
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int y=0;
@@ -14,7 +12,7 @@ public class CondSt3 {
                 y=n+5;
                 System.out.println(y);
             }
-            if (n>=-4&&n<=7){
+            else if (n>=-4&&n<=7){
                 y=n*n-3*n;
                 System.out.println(y);
             }
