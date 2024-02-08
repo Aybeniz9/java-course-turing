@@ -8,10 +8,13 @@ public class MedianNumber {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
-        if (Math.abs(a) <= 1000 && Math.abs(b) <= 1000 && Math.abs(c) <= 1000 && a != b & a != c && b != c) {
-            System.out.println((a + b + c) / 3);
-        } else {
-            System.out.println("Not Found");
+        if ((a > b && a < c) || (a < b && a > c)) {
+            System.out.println(a);
+        } else if ((b > a && b < c) || (b < a && b > c)) {
+            System.out.println(b);
+        } else if ((c > a && c < b) || (c < a && c > b)) {
+            System.out.println(c);
         }
+
     }
-}
+    }
